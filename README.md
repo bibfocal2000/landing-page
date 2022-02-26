@@ -4,24 +4,19 @@ This is the second Odin Project within Foundations
 
 # Image Sources
 
-Photo by Vinícius Caricatte from Pexels:
-https://www.pexels.com/photo/people-holding-tambourine-2231987/
+Photo by Pavel Danilyuk from Pexels https://www.pexels.com/photo/woman-writing-on-a-black-board-7521280/
 
-Photo by Mikhail Nilov from Pexels:
-https://www.pexels.com/photo/a-man-playing-the-ukulele-and-a-woman-playing-the-maracas-8919721/
+Photo by Vinícius Caricatte from Pexels https://www.pexels.com/photo/people-holding-tambourine-2231987/
 
-Photo by Karolina Grabowska from Pexels:
-https://www.pexels.com/photo/close-up-shot-of-a-person-playing-a-triangle-instrument-7285253/
-https://www.pexels.com/photo/close-up-shot-of-a-person-playing-a-triangle-instrument-7285252/
+Photo by Mikhail Nilov from Pexels https://www.pexels.com/photo/a-man-playing-the-ukulele-and-a-woman-playing-the-maracas-8919721/
 
-Photo by Alena Darmel from Pexels:
-https://www.pexels.com/photo/a-kid-covering-his-eyes-with-maracas-8158955/
+Photo by Karolina Grabowska from Pexels https://www.pexels.com/photo/close-up-shot-of-a-person-playing-a-triangle-instrument-7285253/ https://www.pexels.com/photo/close-up-shot-of-a-person-playing-a-triangle-instrument-7285252/
 
-Photo by cottonbro from Pexels:
-https://www.pexels.com/photo/blond-woman-holding-a-tambourine-10434987/
+Photo by Alena Darmel from Pexels https://www.pexels.com/photo/a-kid-covering-his-eyes-with-maracas-8158955/
 
-Photo by Diva Plavalaguna from Pexels:
-https://www.pexels.com/photo/a-man-doing-an-air-guitar-6150585/
+Photo by cottonbro from Pexels https://www.pexels.com/photo/blond-woman-holding-a-tambourine-10434987/
+
+Photo by Diva Plavalaguna from Pexels https://www.pexels.com/photo/a-man-doing-an-air-guitar-6150585/
 
 Fonts
 https://fonts.google.com/specimen/Roboto
