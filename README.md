@@ -2,18 +2,25 @@
 
 This is the second Odin Project within Foundations
 
-# Sources
+# Image Sources
 
-Photo by Karolina Grabowska from Pexels
+Photo by Vinícius Caricatte from Pexels:
+https://www.pexels.com/photo/people-holding-tambourine-2231987/
+
+Photo by Mikhail Nilov from Pexels:
+https://www.pexels.com/photo/a-man-playing-the-ukulele-and-a-woman-playing-the-maracas-8919721/
+
+Photo by Karolina Grabowska from Pexels:
 https://www.pexels.com/photo/close-up-shot-of-a-person-playing-a-triangle-instrument-7285253/
+https://www.pexels.com/photo/close-up-shot-of-a-person-playing-a-triangle-instrument-7285252/
 
-Photo by Alena Darmel from Pexels
+Photo by Alena Darmel from Pexels:
 https://www.pexels.com/photo/a-kid-covering-his-eyes-with-maracas-8158955/
 
-Photo by cottonbro from Pexels
+Photo by cottonbro from Pexels:
 https://www.pexels.com/photo/blond-woman-holding-a-tambourine-10434987/
 
-Photo by Diva Plavalaguna from Pexels
+Photo by Diva Plavalaguna from Pexels:
 https://www.pexels.com/photo/a-man-doing-an-air-guitar-6150585/
 
 Fonts
