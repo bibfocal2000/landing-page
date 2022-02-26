@@ -4,6 +4,8 @@ This is the second Odin Project within Foundations
 
 # Image Sources
 
+Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=145074">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=145074">Pixabay</a>
+
 https://www.pexels.com/photo/music-sheet-showing-musical-notes-534283/ from https://pixabay.com
 
 Photo by Pavel Danilyuk from Pexels https://www.pexels.com/photo/woman-writing-on-a-black-board-7521280/
