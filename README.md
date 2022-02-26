@@ -4,7 +4,9 @@ This is the second Odin Project within Foundations
 
 # Image Sources
 
-Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=145074">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=145074">Pixabay</a> https://pixabay.com/vectors/musical-note-note-treble-key-music-145074/ https://pixabay.com/vectors/aural-clef-composition-hearing-1297838/?download
+Image by <a href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=145074">OpenClipart-Vectors</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=145074">Pixabay</a>
+https://pixabay.com/vectors/musical-note-note-treble-key-music-145074/
+https://pixabay.com/vectors/aural-clef-composition-hearing-1297838/
 
 https://www.pexels.com/photo/music-sheet-showing-musical-notes-534283/ from https://pixabay.com
 
