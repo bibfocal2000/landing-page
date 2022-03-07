@@ -10,6 +10,11 @@
   font-family: roboto-light;
   src: url("../fonts/google/roboto/Roboto-Light.ttf");
 }
+@font-face {
+  font-family: roboto-light-italic;
+  src: url("../fonts/google/roboto/Roboto-LightItalic.ttf");
+}
+
 *,
 *::before,
 *::after {
@@ -24,48 +29,46 @@ html {
 body {
   box-sizing: border-box;
   font-family: "roboto-regular", Arial, Helvetica, sans-serif;
-  color: #f4f4f4;
+  font-size: 1.6rem;
 }
 
-/* UTILITIES */
+/**************** UTILITIES ****************/
 .container {
   max-width: 1028px;
   margin: 0 auto;
   padding: 1rem 0;
-  /* border: 3px solid green; */
 }
-
 .btn {
   display: inline-block;
-  font-size: 1.6rem;
-  color: #3882f6;
   text-decoration: none;
   text-transform: uppercase;
+  width: 16rem;
+  padding: 0.8rem;
+  text-align: center;
 }
-.hero--btn {
+.cta--btn {
   background-color: #3882f6;
-  color: #fff;
-  padding: 8px 32px;
   font-weight: bold;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
   border-radius: 10px;
-  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
-  transition: all 0.2s;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+.cta--btn:hover {
+  background-color: #1f2937;
 }
 
-.hero--btn:hover {
-  background-color: #2173f8;
-}
+/**************** HEADER ****************/
 #main--header,
 #main--footer {
   background-color: #1f2937;
 }
-
 #main--header,
 #main--footer,
 #hero .hero--pitch {
   color: #f9faf8;
 }
-
 #main--header .company {
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -75,7 +78,6 @@ body {
 #main--header .company span {
   color: #4484dd;
 }
-
 #main--header .logo {
   width: 40px;
   height: 80px;
@@ -84,11 +86,13 @@ body {
   background-repeat: no-repeat;
   background-position: left center;
   opacity: 0.5;
+  display: none;
 }
 #main--header .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 #main--header .left {
   display: flex;
@@ -107,9 +111,9 @@ body {
 }
 #main--header .right li:hover {
   border-bottom-color: #f9faf8;
+  color: #f9faf8;
   transition: all 0.25s ease-in;
 }
-
 #main--header .right a {
   text-transform: uppercase;
   text-decoration: none;
@@ -124,22 +128,20 @@ body {
   font-size: 1.8rem;
 }
 
+/**************** HERO ****************/
 #hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
-  gap: 2rem;
-  /* border: 1px solid yellow; */
+  min-height: 85vh;
 }
 #hero .hero--wrapper {
   display: flex;
+  gap: 4rem;
 }
 #hero .hero--left {
   flex: 1;
-  padding: 1rem;
   gap: 1rem;
-  /* border: 2px solid cyan; */
 }
 #hero .hero--left p {
   font-size: 1.8rem;
@@ -152,31 +154,170 @@ body {
   text-transform: capitalize;
   margin-bottom: 1rem;
 }
+#hero .hero--btn {
+  background-color: #3882f6;
+  color: #fff;
+  padding: 8px 32px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
 
+#hero .hero--btn:hover {
+  background-color: #2173f8;
+}
 #hero .hero--right {
   position: relative;
   display: flex;
   flex: 1;
-  /* min-height: 256px; */
   overflow: hidden;
   background-color: #333;
   border: 1.6rem solid #333;
   box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  /* border: 2px solid cyan; */
 }
 #hero .hero--images {
   display: flex;
   position: absolute;
-  /* width: 100%; */
   height: 100%;
-  animation: bannermove 24s alternate infinite;
-  animation-timing-function: linear;
+  animation: bannermove 35s alternate infinite linear;
 }
-
 #hero .hero--images img {
   margin: 0 5px;
 }
+
+/**************** INFORMATION ****************/
+#info {
+  background-color: #f9faf8;
+  position: relative;
+}
+#info::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/hero-notes-256.jpg");
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  z-index: -1;
+  opacity: 0.2;
+}
+#info .info--heading {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
+#info .info--items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 400px;
+  max-width: 80%;
+}
+#info .info--item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.6rem;
+}
+#info .info--name {
+  text-transform: capitalize;
+  font-family: "roboto-bold", Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+}
+#info .info--course {
+  text-transform: capitalize;
+}
+#info .info--image1,
+#info .info--image2,
+#info .info--image3,
+#info .info--image4 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 5px solid #1f2937;
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+}
+#info .info--image1 {
+  background-image: url("../images/teacher1.jpg");
+}
+#info .info--image2 {
+  background-image: url("../images/teacher2.jpg");
+}
+#info .info--image3 {
+  background-image: url("../images/teacher3.jpg");
+}
+#info .info--image4 {
+  background-image: url("../images/teacher4.jpg");
+}
+
+/**************** QUOTE ****************/
+#quote {
+  background-color: lightgray;
+}
+.wrapper {
+  max-width: 80%;
+  margin: auto;
+}
+#quote .wrapper {
+  padding: 4rem 0;
+}
+#quote .quote--text {
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+  font-family: "roboto-light-italic", Arial, Helvetica, sans-serif;
+}
+#quote blockquote {
+  text-align: right;
+  font-family: "roboto-bold", Arial, Helvetica, sans-serif;
+}
+#quote .quote--end,
+#quote .quote--start {
+  background-image: url("../images/quotation-39627_640.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 80px;
+}
+
+/**************** CALL TO ACTION ****************/
+#call {
+  background-color: #f9faf8;
+  padding: 5rem 0;
+}
+#call .container {
+  background-color: #3882f6;
+  border-radius: 20px;
+}
+#call .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 2rem 0;
+}
+#call .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#call .call--heading {
+  text-transform: capitalize;
+}
+
+/**************** FOOTER ****************/
+#main--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  text-transform: capitalize;
+}
+
+/**************** ANIMATIONS ****************/
 @keyframes bannermove {
   0% {
     margin-right: 0;
